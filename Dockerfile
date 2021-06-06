@@ -1,3 +1,3 @@
 FROM devopsedu/webapp
-ADD website /var/www/html
+ADD /tmp/mygitrepo1/website /var/www/html
 CMD apachectl -D FOREGROUND
